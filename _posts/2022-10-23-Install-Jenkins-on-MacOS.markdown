@@ -26,14 +26,11 @@ docker run -d --name jenkins -p 8080:8080 -p 50000:50000 -v YOUR-LOCAL-PATH:/var
   {% highlight bash %}
   brew install ngrok/ngrok/ngrok
   {% endhighlight %}
-
 - Connect your account:
   {% highlight bash %}
   ngrok config add-authtoken YOUR-AUTHNTICATION-TOKEN-FROM-NGROK.COM
   {% endhighlight %}
-
 - Start a HTTP tunnel forwarding to your local port 8080:
   {% highlight bash %}
   ngrok http 8080
   {% endhighlight %}
-  
