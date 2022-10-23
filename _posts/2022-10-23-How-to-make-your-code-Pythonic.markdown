@@ -23,12 +23,17 @@ printer(name="Peter", message='Hi')
 {% endhighlight %}
 
   - To check PEP8, you can use `pycodestyle` tool in command line
-{% highlight python %}
+{% highlight bash %}
 pycodestyle pythonic.py
 
 pythonic.py:1:12: E401 multiple imports on one line
 pythonic.py:3:1: E302 expected 2 blank lines, found 1
 pythonic.py:3:17: E231 missing whitespace after ','
+{% endhighlight %}
+
+  - To do PEP8 code automatic reformatting, you can use autopep8
+{% highlight bash %}
+autopep8 --in-place pythonic.py
 {% endhighlight %}
 
 ## PEP 20
