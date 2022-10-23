@@ -23,7 +23,7 @@ printer(name="Peter", message='Hi')
 {% endhighlight %}
 
   - To check PEP8, you can use `pycodestyle` tool in command line
-{% highlight %}
+{% highlight python %}
 pycodestyle pythonic.py
 
 pythonic.py:1:12: E401 multiple imports on one line
@@ -32,7 +32,7 @@ pythonic.py:3:17: E231 missing whitespace after ','
 {% endhighlight %}
 
 ## PEP 20
-{% highlight %}
+{% highlight bash %}
 ➜  ~ python3
 Python 3.7.13 (default, Oct 11 2022, 09:28:42)
 [Clang 14.0.0 (clang-1400.0.29.102)] on darwin
