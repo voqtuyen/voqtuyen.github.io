@@ -21,7 +21,8 @@ def printer(name,message):
 
 printer(name="Peter", message='Hi')
 {% endhighlight %}
-To check PEP8, you can use `pycodestyle` tool in command line
+
+  - To check PEP8, you can use `pycodestyle` tool in command line
 {% highlight %}
 pycodestyle pythonic.py
 
