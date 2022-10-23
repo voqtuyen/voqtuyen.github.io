@@ -19,8 +19,15 @@ def printer(name,message):
   print(f"You have a new message from {name}")
   print(f"{message}")
 
-printer(name="Peter",  message='Hi')
+printer(name="Peter", message='Hi')
 {% endhighlight %}
+To check PEP8, you can use `pycodestyle` tool in command line
+{% highlight %}
+pycodestyle pythonic.py
 
+pythonic.py:1:12: E401 multiple imports on one line
+pythonic.py:3:1: E302 expected 2 blank lines, found 1
+pythonic.py:3:17: E231 missing whitespace after ','
+{% endhighlight %}
 
 ## PEP 20
