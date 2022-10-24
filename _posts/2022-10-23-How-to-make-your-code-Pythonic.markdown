@@ -86,8 +86,8 @@ def sin():
 > Sparse is better than dense
 
 > Readability counts
-{% highlight python %}
 - Low readability code
+{% highlight python %}
 sn = ["Bob", "Jack", "Harry"]
 
 for n in sn:
