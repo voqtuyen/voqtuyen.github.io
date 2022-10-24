@@ -86,16 +86,17 @@ def sin():
 > Sparse is better than dense
 
 > Readability counts
-- Low readability code
+
 {% highlight python %}
+# Low readability code
 sn = ["Bob", "Jack", "Harry"]
 
 for n in sn:
   print(n)
 {% endhighlight %}
 
-- Hide readability code
 {% highlight python %}
+# Hide readability code
 student_names = ["Bob", "Jack", "Harry"]
 
 for name in student_names:
