@@ -70,6 +70,12 @@ Namespaces are one honking great idea -- let's do more of those!
 > Beautiful is better than ugly
 
 > Explicit is better than implicit
+{% highlight python %}
+from math import sin
+
+def sin():
+  print("Your sin function logic")
+{% endhighlight %}
 
 > Simple is better than complex
 
@@ -80,12 +86,49 @@ Namespaces are one honking great idea -- let's do more of those!
 > Sparse is better than dense
 
 > Readability counts
+{% highlight python %}
+- Low readability code
+sn = ["Bob", "Jack", "Harry"]
+
+for n in sn:
+  print(n)
+{% endhighlight %}
+
+- Hide readability code
+{% highlight python %}
+student_names = ["Bob", "Jack", "Harry"]
+
+for name in student_names:
+  print(name)
+{% endhighlight %}
 
 > Special cases aren’t special enough to break the rules
 > Although practicality beats purity
 
 > Errors should never pass silently
 > Unless explicitly silenced
+
+- Error is passed siliently
+{% highlight python %}
+a = 1
+b = 0
+
+try:
+  c = a / b
+except:
+  pass
+{% endhighlight %}
+
+- Error is handled and logged
+{% highlight python %}
+a = 1
+b = 0
+
+try:
+  c = a / b
+except ZeroDivisionError:
+  print("Can not divide by zero!")
+{% endhighlight %}
 
 > In the face of ambiguity, refuse the temptation to guess
 
