@@ -135,6 +135,18 @@ except ZeroDivisionError:
 > There should be one, and preferably only one way to do it
 > Although that way may not be obvious at first unless you’re Dutch
 
+{% highlight python %}
+# Using the % operator
+programming_language = "Python"
+print("The Zen of %s" % programming_language)
+
+# Using the .format() method
+print("The Zen of {}".format(programming_language))
+
+# Using f-string
+print(f"The Zen of {programming_language}")
+{% endhighlight %}
+
 > Now is better than never
 > Although never is often better than right now
 
@@ -142,5 +154,14 @@ except ZeroDivisionError:
 > If the implementation is easy to explain, it may be a good idea
 
 > Namespaces are one honking great idea -- let’s do more of those!
+- Good namespaces
+{% highlight python %}
+def chase():
+  import cartoon.models.cat as cat
+  import cartoon.models.dog as dog
+  
+  dog.chase(cat)
+  cat.chase(mouse)
+{% endhighlight %}
 
 There should be 20 guidelines for PEP 20, but you can see that there are just 19 of them, the 20th guideline is up to you to define!
