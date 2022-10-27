@@ -5,10 +5,10 @@ date:   2022-10-23 11:17:05 +0700
 categories: Python, programming, unit testing
 ---
 
-### 1. What are Test Doubles?
+### What are Test Doubles?
+Test Double is a generic term for any case where you replace a production object for testing purposes<sup>[1]</sup>
 
-
-### 2. Types of Test Doubles?
+### Types of Test Doubles?
 #### Dummy
 
 
@@ -26,3 +26,6 @@ categories: Python, programming, unit testing
 #### Mocks
 
 
+
+### References
+1. Test Doubles: https://martinfowler.com/bliki/TestDouble.html
