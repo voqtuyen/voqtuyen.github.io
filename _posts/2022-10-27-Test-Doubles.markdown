@@ -29,3 +29,4 @@ Test Double is a generic term for any case where you replace a production object
 
 ### References
 1. Test Doubles: https://martinfowler.com/bliki/TestDouble.html
+2. Effective unit testing
