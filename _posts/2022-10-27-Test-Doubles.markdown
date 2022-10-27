@@ -10,12 +10,10 @@ Test Double is a generic term for any case where you replace a production object
 
 ### Types of Test Doubles?
 #### Dummy
-
-
+- objects are passed around but never actually used. Usually they are just used to fill parameter lists
 
 #### Fake
-
-
+- objects actually have working implementations, but usually take some shortcut which makes them not suitable for production
 
 #### Stub
 
