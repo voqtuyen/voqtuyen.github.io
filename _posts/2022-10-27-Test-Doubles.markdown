@@ -17,12 +17,12 @@ categories: Python, programming, unit testing
 
 
 
-### Stub
+#### Stub
 
 
-### Spies
+#### Spies
 
 
-### Mock
+#### Mocks
 
 
