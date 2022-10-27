@@ -8,6 +8,8 @@ categories: Python, programming, unit testing
 ### What are Test Doubles?
 Test Double is a generic term for any case where you replace a production object for testing purposes<sup>[1]</sup>
 
+### What can we do with test doubles?
+
 ### Types of Test Doubles?
 #### Dummy
 - objects are passed around but never actually used. Usually they are just used to fill parameter lists
