@@ -20,6 +20,9 @@ categories: Python, programming, unit testing
 ### Stub
 
 
+### Spies
+
+
 ### Mock
 
 
