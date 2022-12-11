@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to write good function?"
+title:  "How to write good functions?"
 date:   2022-12-11 09:57:05 +0700
 categories: Python, programming
 ---
