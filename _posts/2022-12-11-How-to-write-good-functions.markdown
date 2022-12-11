@@ -5,7 +5,7 @@ date:   2022-12-11 09:57:05 +0700
 categories: Python, programming
 ---
 
-The original video by ArjanCodes on Youtube: ![Link][https://www.youtube.com/watch?v=yatgY4NpZXE]
+The original video by ArjanCodes on Youtube: https://www.youtube.com/watch?v=yatgY4NpZXE
 Here i just want to summarize the main take-away points from the video.
 
 1. Do one thing and do it well
