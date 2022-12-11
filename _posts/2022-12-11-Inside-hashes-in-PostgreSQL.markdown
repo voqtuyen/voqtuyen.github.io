@@ -5,7 +5,7 @@ date:   2022-10-23 11:17:05 +0700
 categories: Python, programming
 ---
 
-The original video: [](link https://www.coursera.org/learn/intermediate-postgresql/lecture/G9upZ/inside-hashes)
+This note is just for my personal reference. The original video: [](link https://www.coursera.org/learn/intermediate-postgresql/lecture/G9upZ/inside-hashes)
 
 ### What is a hash function?
 Link: [](https://en.wikipedia.org/wiki/Hash_function)
@@ -18,5 +18,8 @@ Link: [](https://en.wikipedia.org/wiki/Hash_function)
 - Python dictionaries
 - Database indexes
 ### Good Hash Functions
-- Deterministic
+- **Deterministic**: Must get the same output for the same input
+- **Uniform Distribution**: Should have an equal chance of generating any value with the range of its outputs
+- **Sensitive**: Any change in input should provide a change in output
+- **One-way**: You should not be able to derive the input from the output
 
