@@ -26,6 +26,6 @@ Link: [https://en.wikipedia.org/wiki/Hash_function](https://en.wikipedia.org/wik
 
 ### Understand Hash Computation
 - Bitwise operators
-  - Left shift: <<
+  - Left shift: << (00001111 left shifted to 00011110)
   - Exclusive or: ^ (1 of two bits are different, 0 otherwise)
   - And: &
