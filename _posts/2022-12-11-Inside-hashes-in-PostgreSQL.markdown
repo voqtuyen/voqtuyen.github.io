@@ -24,3 +24,8 @@ Link: [https://en.wikipedia.org/wiki/Hash_function](https://en.wikipedia.org/wik
 - **Sensitive**: Any change in input should provide a change in output
 - **One-way**: You should not be able to derive the input from the output
 
+### Understand Hash Computation
+- Bitwise operators
+  - Left shift: <<
+  - Exclusive or: ^ (1 of two bits are different, 0 otherwise)
+  - And: &
