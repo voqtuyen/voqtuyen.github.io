@@ -7,4 +7,5 @@ categories: Python, programming
 
 
 ### References:
-1. https://www.baeldung.com/cs/b-tree-data-structure
+1. [https://www.baeldung.com/cs/b-tree-data-structure](https://www.baeldung.com/cs/b-tree-data-structure)
+2. [http://www.btechsmartclass.com/data_structures/b-trees.html](http://www.btechsmartclass.com/data_structures/b-trees.html)
